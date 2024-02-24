@@ -13,7 +13,7 @@ More Features are comming soon
 
 ## Demo
 Before Clicking the Button:<br />
-![demo1](https://i.ibb.co/RD1gK9f/Screenshot-2024-02-24-203441.png)
+![demo1](https://i.ibb.co/RD1gK9f/Screenshot-2024-02-24-203441.png) <br />
 After Clicking the button:<br />
 ![demo2](https://i.ibb.co/WWCZvt0/Screenshot-2024-02-24-203315.png)
 
