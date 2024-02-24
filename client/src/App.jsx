@@ -18,11 +18,12 @@ function App() {
   }
 
   return (
-    <>
     <div className='flex flex-col items-center'>
+      {/* Title */}
       <h1 className="text-3xl font-bold text-slate-800 p-4">
         EzPasswordGenerator
       </h1>
+      {/* Input Values and Button */}
       <div className="pt-5 border w-1/3 border-slate-700 flex flex-col items-center">
         <label
           for="length"
@@ -40,6 +41,7 @@ function App() {
             <button className="font-bold rounded bg-transparent border border-slate-700 hover:bg-slate-700 text-slate-700 hover:text-white py-2 px-2" onClick={generatePassword}>Generate a Password</button>
           </div>
       </div>
+      {/* Generated Password Display */}
       <div className='pt-5 w-1/3'>
       <div className='border border-slate-700 p-2 flex justify-center items-center'>
         <div className='flex space-x-1 items-center'>
@@ -54,9 +56,7 @@ function App() {
         </div>
       </div>
     </div>
-    </div>
-    </>
-      
+  </div>
   )
 }
 
