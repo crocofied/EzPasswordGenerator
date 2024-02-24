@@ -47,5 +47,5 @@ python main.py
 ```
 ## Authors
 
-- [@crocosniper](https://www.github.com/crocosniper)
+- [@crocosnipe](https://www.github.com/crocosnipe)
 
