@@ -8,7 +8,7 @@ function App() {
   const generatePassword = () => {
     axios.get('http://localhost:8000/password')
       .then(response => {
-        setDisplayPassword(response.data)
+        setDisplayPassword(response.data.password)
       })
   }
 
