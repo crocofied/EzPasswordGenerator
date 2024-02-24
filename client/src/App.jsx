@@ -1,13 +1,24 @@
 import { useState } from 'react'
+import axios from 'axios'
 import './index.css'
 
 function App() {
+  const [displayPassword, setDisplayPassword] = useState('')
+
+  const generatePassword = () => {
+    axios.get('http://localhost:8000/password')
+      .then(response => {
+        setDisplayPassword(response.data)
+      })
+  }
 
   return (
     <>
     <h1 className="text-3xl font-bold underline">
-      Hello world!
+      EzPasswordGenerator
     </h1>
+    <button onClick={generatePassword}>Generate a Password</button>
+    <p>{displayPassword}</p>
     </>
       
   )
