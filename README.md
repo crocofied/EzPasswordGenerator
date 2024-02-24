@@ -6,7 +6,9 @@ This project contains a simple password generator. It is designed to quickly and
 
 ## Features
 
-- A simple button to generate a 12-characters long password
+- A Slider to select the length of the password
+- A Button to generate the password
+- A "Copy to Clipboard" feature to copy the generated password
 
 More Features are comming soon
 
@@ -18,9 +20,9 @@ More Features are comming soon
 
 ## Demo
 Before Clicking the Button:<br />
-![demo1](https://i.ibb.co/RD1gK9f/Screenshot-2024-02-24-203441.png) <br />
+![demo1](https://i.ibb.co/fQv3T9d/Screenshot-2024-02-24-214639.png) <br />
 After Clicking the button:<br />
-![demo2](https://i.ibb.co/WWCZvt0/Screenshot-2024-02-24-203315.png)
+![demo2](https://i.ibb.co/7NJbdwG/Screenshot-2024-02-24-214653.png)
 
 
 ## Clone

@@ -6,13 +6,11 @@ import random
 import string
 
 # Define the "generate_password" function to generate a random password
-def generate_password():
+def generate_password(length):
     # Which characters to use for the password
     characters = string.ascii_letters + string.digits + "!+.?"
-    # Set the length of the password
-    length = 12
     # Generate a random password
-    password = ''.join(random.choice(characters) for i in range(length-1)) # We substract 1 from length to actually get 12 characters and not 13
+    password = ''.join(random.choice(characters) for i in range(length)) # We substract 1 from length to actually get 12 characters and not 13
     # Return the password
     return password
 
@@ -33,10 +31,10 @@ app.add_middleware(
 )
 
 # Define the password endpoint
-@app.get("/password")
-async def get_password():
+@app.get("/password/")
+async def get_password(length: int = 15):
     # Return the generated password
-    return {"password": generate_password()}
+    return {"password": generate_password(length)}
 
 # Run the server
 if __name__ == "__main__":
