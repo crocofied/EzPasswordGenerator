@@ -12,9 +12,9 @@ More Features are comming soon
 
 
 ## Demo
-Before Clicking the Button:
+Before Clicking the Button:__
 ![demo1](https://i.ibb.co/RD1gK9f/Screenshot-2024-02-24-203441.png)
-After Clicking the button:
+After Clicking the button:__
 ![demo2](https://i.ibb.co/WWCZvt0/Screenshot-2024-02-24-203315.png)
 
 
