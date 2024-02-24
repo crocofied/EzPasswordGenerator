@@ -10,6 +10,11 @@ This project contains a simple password generator. It is designed to quickly and
 
 More Features are comming soon
 
+## Tech Stack
+
+**Client:** React, Axios, TailwindCSS
+
+**Server:** FastAPI (Python)
 
 ## Demo
 Before Clicking the Button:<br />
