@@ -21,10 +21,8 @@ More Features are comming soon
 ## Demo
 LIVE DEMO: https://croco-dev.xyz/password/
 
-Before Clicking the Button:<br />
-![demo1](https://i.ibb.co/fQv3T9d/Screenshot-2024-02-24-214639.png) <br />
-After Clicking the button:<br />
-![demo2](https://i.ibb.co/7NJbdwG/Screenshot-2024-02-24-214653.png)
+Preview:<br />
+![demo](https://i.ibb.co/TtDMNSR/Screenshot-2024-02-27-200811.png) <br />
 
 
 ## Clone
@@ -32,7 +30,7 @@ After Clicking the button:<br />
 2. Go to the client folder
 3. Run: 
 ```bash
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss postcss autoprefixer axios
 ```
 4. Go to the server folder
 5. Run: 

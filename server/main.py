@@ -29,7 +29,7 @@ app.add_middleware(
 
 # Define the password endpoint
 @app.get("/password/")
-async def get_password(length: int = 15):
+async def get_password(length: int = 20):
     # Return the generated password
     return {"password": generate_password(length)}
 
