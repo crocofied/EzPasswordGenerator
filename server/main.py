@@ -5,12 +5,17 @@ import uvicorn
 import random
 import string
 
-# Define the "generate_password" function to generate a random password
-def generate_password(length):
+def generate_password(length: int = 20):
+    if length > 20:     
+        length = 20
+    elif length < 6:
+        length = 6
+
     # Which characters to use for the password
     characters = string.ascii_letters + string.digits + "!+.?"
     # Generate a random password
     password = ''.join(random.choice(characters) for i in range(length))
+    # If a word is provided, insert it into the password
     # Return the password
     return password
 
