@@ -22,12 +22,9 @@ function App() {
 
   const switchDarkMode = () => {
     setDarkMode(!darkMode)
-    console.log(darkMode)
     if (darkMode) {
-      console.log('Dark Mode')
       document.getElementById("darkmode").classList.remove('dark')
     } else {
-      console.log('Öight Mode')
       document.getElementById("darkmode").classList.add('dark')
     }
   }

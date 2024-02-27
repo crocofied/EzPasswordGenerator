@@ -32,8 +32,9 @@ Preview:<br />
 ```bash
 npm install -D tailwindcss postcss autoprefixer axios
 ```
-4. Go to the server folder
-5. Run: 
+4. In client/src/App.jsx insert your IP or URL where your API runs
+5. Go to the server folder
+6. Run: 
 ```bash
 pip install fastapi uvicorn
 ```
