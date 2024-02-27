@@ -7,7 +7,7 @@ function App() {
   const [displayPassword, setDisplayPassword] = useState('Click the button to generate a password')
   const [passwordLength, setPasswordLength] = useState(20)
   const [darkMode, setDarkMode] = useState(true)
-  const base_url = 'https://api.croco-dev.xyz/' // Change to your server's URL
+  const base_url = 'https://' // Change to your server's URL
 
   const generatePassword = () => {
     axios.get( base_url + 'password/?length='+ passwordLength)
