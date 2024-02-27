@@ -5,7 +5,7 @@ import './index.css'
 function App() {
   const [displayPassword, setDisplayPassword] = useState('Click the button to generate a password')
   const [passwordLength, setPasswordLength] = useState(15)
-  const base_url = 'http://localhost:8000' // Change to your server's URL
+  const base_url = 'https://api.croco-dev.xyz/' // Change to your server's URL
 
   const generatePassword = () => {
     axios.get( base_url + 'password/?length='+ passwordLength)

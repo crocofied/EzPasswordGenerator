@@ -35,5 +35,4 @@ async def get_password(length: int = 15):
 
 # Run the server
 if __name__ == "__main__":
-    # uvicorn.run(app, host="0.0.0.0", port=8000, ssl_keyfile="./key.pem", ssl_certfile="./certificate.pem") # Uncomment to use the api for production with SSL Certificate
-    uvicorn.run(app, host="localhost", port=8000) # For test purposes on local machine (Comment this line if you want to use the api for production with SSL Certificate)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
