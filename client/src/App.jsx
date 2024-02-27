@@ -55,7 +55,7 @@ function App() {
           >
           <input
             type="range"
-            className="transparent h-[4px] w-3/4 lg:w-1/2 mx-auto cursor-pointer appearance-none border-transparent bg-neutral-200 dark:bg-neutral-600"
+            className="transparent h-[4px] w-3/4 lg:w-1/2 mx-auto cursor-pointer appearance-none border-transparent dark:bg-neutral-400 bg-neutral-700"
             min="6"
             max="20"
             id="length" 
