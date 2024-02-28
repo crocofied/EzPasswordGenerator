@@ -9,8 +9,7 @@ This project contains a simple password generator. It is designed to quickly and
 - A Slider to select the length of the password
 - A Button to generate the password
 - A "Copy to Clipboard" feature to copy the generated password
-
-More Features are comming soon
+- Advanced password settings
 
 ## Tech Stack
 
@@ -22,7 +21,7 @@ More Features are comming soon
 LIVE DEMO: https://croco-dev.xyz/password/
 
 Preview:<br />
-![demo](https://i.ibb.co/TtDMNSR/Screenshot-2024-02-27-200811.png) <br />
+![demo](https://i.ibb.co/yyzqLjF/Screenshot-2024-02-28-195019.png) <br />
 
 
 ## Clone
