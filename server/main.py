@@ -50,5 +50,5 @@ async def get_password(length: int = 20, letters: bool = True, digits: bool = Tr
 
 # Run the server
 if __name__ == "__main__":
-    # uvicorn.run(app, host="localhost", port=8000) # For running the server locally
-    uvicorn.run(app, host="0.0.0.0", port=8000) # For running the server publicly
+    uvicorn.run(app, host="localhost", port=8000) # For running the server locally
+    # uvicorn.run(app, host="0.0.0.0", port=8000) # For running the server publicly

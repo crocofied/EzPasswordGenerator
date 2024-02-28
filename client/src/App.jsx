@@ -14,7 +14,7 @@ function App() {
   const [numbers, setNumbers] = useState(true);
   const [symbols, setSymbols] = useState(true);
 
-  const base_url = 'https://api.croco-dev.xyz/' // Change to your server's URL
+  const base_url = 'http://' // Change to your server's URL
 
   // Function to generate a password with the given settings over the API
   const generatePassword = () => {
