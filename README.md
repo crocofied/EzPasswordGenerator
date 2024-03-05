@@ -18,8 +18,6 @@ This project contains a simple password generator. It is designed to quickly and
 **Server:** FastAPI (Python)
 
 ## Demo
-LIVE DEMO: https://croco-dev.xyz/password/
-
 Preview:<br />
 ![demo](https://i.ibb.co/yyzqLjF/Screenshot-2024-02-28-195019.png) <br />
 
